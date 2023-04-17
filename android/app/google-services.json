@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "634708377138",
+    "project_id": "chatmate-beec8",
+    "storage_bucket": "chatmate-beec8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634708377138:android:a56a5503aff019dbff862b",
+        "android_client_info": {
+          "package_name": "com.example.chatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634708377138-am2elvdlt5rggk8q6r3s9mnnf5bahb3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1b3BLmGGIoUi42loeMhDgt510dlr4cBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634708377138-am2elvdlt5rggk8q6r3s9mnnf5bahb3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

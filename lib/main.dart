@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 
 import 'screens/auth/login_screen.dart';
-import 'screens/home_screen.dart';
+// import 'screens/home_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
+// import 'firebase_options.dart';
 
 //variable for storing the screen size
 
 late Size mq;
 
-void main() {
+void main() async {
+  // WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -39,3 +43,10 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+// _initializeFirebase() async{
+//   await Firebase.initializeApp(
+//     options: DefaultFirebaseOptions.currentPlatform,
+//   );
+// }
